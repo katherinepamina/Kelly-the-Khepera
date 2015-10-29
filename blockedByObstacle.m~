@@ -28,7 +28,6 @@ sensor6High = 140;
 sensor7High = 230;
 sensor8High = 230;
 
-blocked = false; 
 sensors = zeros(1,8);
 sensors = readIR(s)
 %front blocked
